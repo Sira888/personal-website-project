@@ -1,0 +1,76 @@
+:root {
+    --main-font-fam: 'Dosis', sans serif;
+    --main-font-size: 2em;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    height: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: var(--main-font-fam) ;
+    font-size: var(--main-font-size);
+}
+h1{
+    font-size: 1em;
+}
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {height: 40%;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    background-color: rgba(132, 0, 255, 0.733);
+    box-shadow: 1px 1px 10px rgba(126, 21, 245, 0.932);
+    font-size: 1em;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+main {
+}
+
+figure {
+    margin: 0;
+    padding:0;
+}
+.container-one {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-one>h3 {
+    text-align: center;
+}
+
+
+[class^="black"] {
+    height: 40%;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer {
+    height: 20%;
+}
